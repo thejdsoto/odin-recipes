@@ -1,0 +1,13 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: aliceblue;
+    color:darkslategray;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
