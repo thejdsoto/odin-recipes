@@ -7,7 +7,22 @@ body {
     color:darkslategray;
 }
 
+h1 {
+    text-align: center;
+}
+
 img {
     width: 300px;
     height: auto;
+}
+
+.header {
+    border: 2px groove gray;
+    padding: 8px;
+    text-align: center;
+}
+
+.list {
+    border: 1px solid black;
+    padding: 4px;
 }
