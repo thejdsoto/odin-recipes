@@ -1,14 +1,57 @@
 * {
-    background-color: beige;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    font-size: 42px;
-    font-weight: bolder;
+h1, h2 {
+    font-family: Lexend;
 }
 
-a {
-    background-color: orangered;
-    color: white;
+p {
+    font-family: Manrope;
 }
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/hero-background.jpg");
+    background-size: cover;
+    padding: 48px;
+    text-align: center;
+    height: 640px;
+    width: auto;
+}
+
+    .hero .hero-content {
+        margin-top: 150px;
+    }
+
+    .hero h2 {
+       font-size: 64px;
+       line-height: 84px;
+       font-weight: 700;
+       color: white; 
+    }
+
+    .hero p {
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .hero button {
+        padding: 10px 20px;
+        margin: 18px;
+        font-family: Manrope;
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+        background-color: #6D31EDFF;
+        border: none;
+        border-radius: 4px;
+    }
+
+/* div {
+    border: 1px solid red;
+} */
