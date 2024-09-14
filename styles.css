@@ -267,6 +267,19 @@ ul li {
         border-radius: 4px;
     }
 
+.footer {
+    background-color: #1E2128FF;
+    text-align: center;
+    padding: 32px;
+}
+
+    .footer h6 {
+        font-family: Manrope;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+        color: white;
+    }
 /* For debugging purposes only -- un-comment code block below to show div borders */
 /* div {
     border: 1px solid red;
