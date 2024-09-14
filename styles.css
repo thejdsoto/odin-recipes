@@ -111,7 +111,77 @@ p {
         }
 
 
+.featured {
+    background-color: white;
+    border-radius: 0px;
+    height: 710px;
+}
 
+    .featured img {
+        display: inline;
+        width: 160px;
+        height: 213px;
+        object-fit: cover;
+        margin-left: 32px;
+        margin-top: 16px;
+        border-radius: 3px;
+    }
+
+    .featured h3 {
+        font-size: 40px;
+        line-height: 56px;
+        font-weight: 700;
+        color: black;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .featured .top, .featured .bottom {
+        text-align: center;
+        margin: 32px;
+    }
+
+    .featured .card {
+        display: inline-block;
+        width: 381px;
+        height: 245px;
+        background-color: white;
+        border-radius: 4px;
+        box-shadow: 0px 0px 1px #171a1f;
+        text-align: center;
+        margin: 32px;
+    }
+
+        .featured .card .container {
+            display: inline-block;
+            width: 160px;
+            height: 213px;
+        }
+
+            .featured .card .container h4 {
+                font-family: Lexend;
+                font-size: 20px;
+                line-height: 30px;
+                font-weight: 700;
+                color: #171A1FFF;
+            }
+
+            .featured .card .container p {
+                font-size: 14px;
+                line-height: 22px;
+                font-weight: 400;
+                color: #9095A1FF;
+            }
+
+            .featured .card .container button {
+                font-family: Manrope;
+                padding: 8px 12px;
+                color: #6D31EDFF;
+                background-color: white;
+                border-radius: 4px;
+                border: 1px solid #6D31EDFF;
+
+            }
 
 /* For debugging purposes only -- un-comment code block below to show div borders */
 /* div {
