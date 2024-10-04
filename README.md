@@ -7,3 +7,12 @@ In this project, I am going to build a basic recipe website. The website will co
 The long term dream for this project is to be a full-stack website wherein users can log in and share recipes to other users, while other users can view and rate recipes posted by other users.
 
 The short term dream is to apply what I learned from the TOP courses.
+
+Updates:
+v0.1.0 - Finish layouting of landing page
+
+Planned features for October:
+Change html and css structure to flexbox
+Add Changelog page to keep track of updates
+Add template for recipe page
+Add logo, fix nav bar, Featured Recipes alignment, header and footer paddings(?)
